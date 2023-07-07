@@ -59,6 +59,11 @@ nav ul li:hover {
 
 }
 
+nav ul li:active {
+    background: white;
+    text-decoration: underline;
+}
+
 .hero-image {
     background: url(../images/pexels-helena-lopes-933964.jpg);
     height: 70vh;
@@ -87,7 +92,6 @@ nav ul li:hover {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-auto-rows: 200px;
     grid-auto-flow: dense;
-    grid- height: 20vh;
     width: 60vw;
     margin-left: auto;
     margin-right: auto;
@@ -193,8 +197,9 @@ nav ul li:hover {
 }
 
 footer {
-    height: 5vh;
-    margin-top: 3vh;
+
+    height: auto;
+    margin-top: 5vh;
     text-align: center;
 
 }
@@ -261,4 +266,95 @@ footer {
 
 .fa:hover {
     opacity: 0.9;
+}
+
+#packman {
+    background: url(../images/sei-bS46IAXWAO4-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    grid-column: 1/2;
+    grid-row: 1;
+    width: 30vw;
+
+    margin-top: 3vh;
+}
+
+#packman-text {
+    grid-column: 2/2;
+    grid-row: 1;
+    width: 60vw;
+    background: black;
+    margin-top: 3vh;
+}
+
+#coffee {
+    background: url(../images/pexels-nastyasensei-2267871.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    grid-column: 1/2;
+    grid-row: 2;
+    width: 30vw;
+
+    margin-top: 3vh;
+}
+
+#coffee-text {
+    grid-column: 2/2;
+    grid-row: 2;
+    width: 60vw;
+    background: black;
+    margin-top: 3vh;
+
+}
+
+#dart {
+    background: url(../images/target-gd886252fd_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    grid-column: 1/2;
+    grid-row: 3;
+    width: 30vw;
+
+    margin-top: 3vh;
+}
+
+#dart-text {
+    grid-column: 2/2;
+    grid-row: 3;
+    width: 60vw;
+    background: black;
+    margin-top: 3vh;
+
+}
+
+#meet {
+    background: url(../images/space-g8d039d91b_640.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    grid-column: 1/2;
+    grid-row: 4;
+    width: 30vw;
+
+    margin-top: 3vh;
+}
+
+#meet-text {
+    grid-column: 2/2;
+    grid-row: 4;
+    width: 60vw;
+    background: black;
+    margin-top: 3vh;
+
+
+}
+
+.event-li {
+    display: grid;
+    margin: auto;
+    height: 100%;
+
 }

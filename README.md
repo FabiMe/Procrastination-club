@@ -1,39 +1,46 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Procrastination-club
 
-Welcome,
+the procrastination club is a place to network with like-minded individuals. It is primarily aimed at students. The goal is to get away from learning through social events but at the same time not to waste your time but to make new important contacts.
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Features 
+- Navigation Bar
+  - The navigation bar, found on all three pages, includes links to the home page, the events page, and the contact page, and is identical on each page for easy navigation.
+  - This area allows the user to navigate from page to page on all devices.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+- Hero Image
+  - the hero image refers to networking and to not distract from the content of the image it is static without effects
+  - The hero image is the first object that attracts attention as soon as you open the page.
 
-## Codeanywhere Reminders
+- Why Us?
+  - the Why Us section is a brief explanation of what the club does and who it is for. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+- Events that we offer 
+  - in the "events that we offer section" all social events are listed and tiled that the Procrastination club offers. 
+  - this section is responsive. The event headings are linked to the correct event on the event.html page to provide a quick navigation option
+  - The tiles of the event section are enlarged when hovering over them. to direct the focus to special events. 
 
-`python3 -m http.server`
+- The footer
+  - fully responsive footer with social media links.
+  - links open in a new tab and show the start pages of the specified social media platforms.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- Event page
+  - 
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+- Contact page
 
-`http_server`
+## Testing 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+#### Validator Testing
+- HTML
+- CSS
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+#### Unfixed Bugs
+  -
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Deployment
 
-To log into the Heroku toolbelt CLI:
+## Credits
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+#### Content
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+#### Media

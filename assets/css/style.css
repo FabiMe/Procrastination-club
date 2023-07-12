@@ -13,23 +13,12 @@ body {
     font-family: 'Lato', sans-serif;
     background-color: beige;
 }
-
+/** Navigation bar with inspiration from https: //www.youtube.com/watch?v=oLgtucwjVII&ab_channel=CodingNepal */
 nav {
     background: beige;
     color: green;
     height: 80px;
     width: 100%;
-
-}
-
-#logo {
-    color: black;
-    font-size: 250%;
-    line-height: 80px;
-    padding: 0 50px;
-    font-weight: bold;
-    font-family: 'Press Start 2P', cursive;
-
 }
 
 nav ul {
@@ -41,8 +30,6 @@ nav ul li {
     display: inline-block;
     line-height: 80px;
     margin: 0 10px;
-
-
 }
 
 nav ul li a {
@@ -50,13 +37,11 @@ nav ul li a {
     font-size: 150%;
     font-weight: bold;
     padding: 10px 15px;
-
 }
 
 nav ul li:hover {
     background: white;
     transition: .5s;
-
 }
 
 nav ul li:active {
@@ -64,6 +49,17 @@ nav ul li:active {
     text-decoration: underline;
 }
 
+/** Page logo */
+#logo {
+    color: black;
+    font-size: 250%;
+    line-height: 80px;
+    padding: 0 50px;
+    font-weight: bold;
+    font-family: 'Press Start 2P', cursive;
+}
+
+/** Hero Image and text */
 .hero-image {
     background: url(../images/pexels-helena-lopes-933964.jpg);
     height: 70vh;
@@ -82,9 +78,31 @@ nav ul li:active {
     transform: translate(-50%, -50%);
     color: black;
     background: beige;
-
+}
+/** "Why Us?" section */
+#explain {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 100%;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-weight: bold;
+    font-size: larger;
+    background-color: beige;
 }
 
+#explain h2 {
+    font-family: 'Press Start 2P', cursive;
+    text-decoration: dotted;
+}
+
+#explain p {
+    margin-top: 3vh;
+}
+
+/** style of the Event tiles */
 .event-tiles {
     display: grid;
     grid-column-gap: 30px;
@@ -95,7 +113,6 @@ nav ul li:active {
     width: 60vw;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .box {
@@ -103,9 +120,9 @@ nav ul li:active {
     background-color: black;
     color: green;
     border-radius: 5px;
-
 }
 
+/** specific style rules for individual event tiles */
 .event-1 {
     background: url(../images/sei-bS46IAXWAO4-unsplash.jpg);
     background-size: cover;
@@ -113,8 +130,6 @@ nav ul li:active {
     background-position: center center;
     grid-column: 1/2;
     grid-row: 1;
-
-
 }
 
 .event-2 {
@@ -124,7 +139,6 @@ nav ul li:active {
     background-position: center 20%;
     grid-column: 2/2;
     grid-row: 1;
-
 }
 
 .event-3 {
@@ -134,8 +148,6 @@ nav ul li:active {
     background-position: center center;
     grid-column: 1/2;
     grid-row: 2;
-
-
 }
 
 .event-4 {
@@ -145,7 +157,6 @@ nav ul li:active {
     background-position: center center;
     grid-column: 2/2;
     grid-row: 2;
-
 }
 
 .event-1:hover {
@@ -171,85 +182,28 @@ nav ul li:active {
     margin-bottom: 3vh;
     font-family: 'Press Start 2P', cursive;
 }
-
-
-#explain {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
+/** style of each event from the event.html page */
+.event-li {
+    display: grid;
+    margin: auto;
     height: 100%;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-    font-weight: bold;
-    font-size: larger;
-    background-color: beige;
+    margin-bottom: 3vh;
+    margin-left: 3vw;
 
 }
 
-#explain h2 {
-    font-family: 'Press Start 2P', cursive;
-    text-decoration: dotted;
-}
-
-#explain p {
-    margin-top: 3vh;
-}
-
-footer {
-
-    height: auto;
-    margin-top: 5vh;
+.event-description {
+    padding-top: 2%;
+    font-size: 1vw;
+    color: white;
     text-align: center;
-
 }
 
-.footer {
-    background-color: black;
+.event-heading {
+    padding-top: 2%;
+    font-size: 2vw;
     color: white;
-}
-
-
-.fa {
-    padding: 20px;
     text-align: center;
-    margin: 5px 10px;
-    font-size: 30px;
-    width: 50px;
-}
-
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-}
-
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-}
-
-.fa-linkedin {
-    background: #007bb5;
-    color: white;
-}
-
-.fa-instagram {
-    background: #125688;
-    color: white;
-}
-
-.fa-youtube {
-    background: #bb0000;
-    color: white;
-}
-
-.fa-google {
-    background: #dd4b39;
-    color: white;
-}
-
-.fa:hover {
-    opacity: 0.9;
 }
 
 #packman {
@@ -336,29 +290,59 @@ footer {
     background: black;
     margin-top: 3vh;
     height: 25vh;
-
-
 }
 
-.event-li {
-    display: grid;
-    margin: auto;
-    height: 100%;
-    margin-bottom: 3vh;
-    margin-left: 3vw;
-
-}
-
-.event-description {
-    padding-top: 2%;
-    font-size: 1vw;
-    color: white;
+/** footer styling with social media links */
+footer {
+    height: auto;
+    margin-top: 5vh;
     text-align: center;
+    background-color: black;
+    color: white;
 }
 
-.event-heading {
-    padding-top: 2%;
-    font-size: 2vw;
-    color: white;
+/** footer code from: "https: //www.w3schools.com/howto/howto_css_social_media_buttons.asp" */
+
+.fa {
+    padding: 20px;
     text-align: center;
+    margin: 5px 10px;
+    font-size: 30px;
+    width: 50px;
 }
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.9;
+}
+
+

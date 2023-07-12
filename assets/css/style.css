@@ -38,7 +38,7 @@ nav ul li a {
     color: black;
     font-size: 1.5vw;
     font-weight: bold;
-    padding: 10px 15px;
+    padding: auto auto;
 }
 
 nav ul li:hover {
@@ -62,6 +62,7 @@ nav ul li:active {
 }
 
 /** Hero Image and text */
+
 .hero-image {
     background: url(../images/pexels-helena-lopes-933964.jpg);
     height: 70vh;
@@ -78,9 +79,20 @@ nav ul li:active {
         color: black;
         background: beige;
         opacity: 0.5;
-        font-size: 15px;
-        width: 10vw;
+        font-size: 0.5em;
+        width: fit-content;
+        height: fit-content;
     }
+
+    .hero-image {
+        background: url(../images/pexels-helena-lopes-933964.jpg);
+        height: 45vh;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
 }
 
 .hero-text {
@@ -120,14 +132,13 @@ nav ul li:active {
 /** style of the Event tiles */
 .event-tiles {
     display: grid;
-    grid-column-gap: 30px;
-    grid-row-gap: 30px;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-auto-rows: 200px;
+    grid-column-gap: 1vw;
+    grid-row-gap: 1vh;
+    grid-template-columns: repeat(auto-fit, minmax(25vw, 1fr));
+    grid-auto-rows: 25vh;
     grid-auto-flow: dense;
-    width: 60vw;
-    margin-left: auto;
-    margin-right: auto;
+    width: 80%;
+    margin: auto;
 }
 
 .box {
@@ -145,13 +156,14 @@ nav ul li:active {
     background-position: center center;
     grid-column: 1/2;
     grid-row: 1;
+
 }
 
 .event-2 {
     background: url(../images/pexels-nastyasensei-2267871.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center 20%;
+    background-position: center center;
     grid-column: 2/2;
     grid-row: 1;
 }

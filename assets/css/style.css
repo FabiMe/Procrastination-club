@@ -372,3 +372,23 @@ footer {
 .fa:hover {
     opacity: 0.9;
 }
+
+form {
+    margin-top: 10vh;
+    display: inherit;
+    text-align: center;
+    padding: 10%;
+    height: auto;
+    width: 50vw;
+}
+
+fieldset {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+fieldset legend {
+    text-align: center;
+}

@@ -26,11 +26,19 @@
     <form>
         <fieldset>
             <label for="fname">First Name:</label><br>
-            <input type="text" id="fname" name="fname"><br>
+            <input type="text" id="fname" name="fname" required><br>
             <label for="lname">Last Name:</label><br>
-            <input type="text" id="lname" name="lname"><br>
+            <input type="text" id="lname" name="lname" required><br>
             <label for="email">Email-address</label><br>
-            <input type="email" id="email" name="email"><br>
+            <input type="email" id="email" name="email" required><br>
+            <fieldset>
+                <legend>Please choose your desired event</legend>
+                <div>
+                    <label for="packmancontest">Packman contest</label>
+                    <input type="checkbox" id="packmancontest" name="packmancontest" checked>
+                </div>
+            </fieldset>
+            <input type="text" id="events" name="events" selectBoxOptions="Packman;Denmark;Finland;Germany;Mexico"><br>
             <input type="submit">
         </fieldset>
     </form>

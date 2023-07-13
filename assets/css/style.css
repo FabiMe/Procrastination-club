@@ -213,10 +213,11 @@ nav ul li:active {
 /** style of each event from the event.html page */
 .event-li {
     display: grid;
-    margin: auto;
+    margin-top: 2vh;
     height: 100%;
     margin-bottom: 3vh;
     margin-left: 3vw;
+    padding-bottom: 3vh;
 
 }
 
@@ -374,21 +375,58 @@ footer {
 }
 
 form {
-    margin-top: 10vh;
-    display: inherit;
     text-align: center;
-    padding: 10%;
-    height: auto;
-    width: 50vw;
+    display: flex;
+    background-color: black;
+    border: 0;
+    box-shadow: 0 0 15px 5px grey;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 25vh auto;
+    width: fit-content;
+    height: fit-content;
+    overflow: hidden;
+
+}
+
+form h1 {
+    margin-bottom: 1vh;
+    margin-top: 1vh;
 }
 
 fieldset {
     background-color: black;
-    color: white;
-    text-align: center;
+    color: beige;
+    margin: auto;
+
 
 }
 
 fieldset legend {
+    border: 2px double beige;
+    margin-bottom: 1vh;
+    font-size: 150%;
+}
+
+fieldset input {
+    margin-top: 1vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 1.5vh;
+}
+
+select {
     text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    height: 6vh;
+    font-weight: bold;
+
+}
+
+#backgroundimage {
+    background: url(../images/clouds.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+
 }

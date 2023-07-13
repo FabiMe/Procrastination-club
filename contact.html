@@ -23,23 +23,28 @@
             </ul>
         </nav>
     </header>
+    <div id="backgroundimage">
     <form>
-        <fieldset>
-            <label for="fname">First Name:</label><br>
-            <input type="text" id="fname" name="fname" required><br>
-            <label for="lname">Last Name:</label><br>
-            <input type="text" id="lname" name="lname" required><br>
-            <label for="email">Email-address</label><br>
-            <input type="email" id="email" name="email" required><br>
-            <fieldset>
-                <legend>Please choose your desired event</legend>
-                <div>
-                    <label for="packmancontest">Packman contest</label>
-                    <input type="checkbox" id="packmancontest" name="packmancontest" checked>
-                </div>
+                <fieldset>
+                <h1>Please fill in the Form</h1>
+                <label for="fname">First Name:</label><br>
+                <input type="text" id="fname" name="fname" required placeholder="Your first Name"><br>
+                <label for="lname">Last Name:</label><br>
+                <input type="text" id="lname" name="lname" required placeholder="Your last Name"><br>
+                <label for="email">Email-address:</label><br>
+                <input type="email" id="email" name="email" required placeholder="johndoe@abc.com"><br>
+                <fieldset>
+                    <label for="events">Please choose your desired event</label><br>
+                    <select name="events" id="events">
+                        <option value="packmancontest">Packman contest</option>
+                        <option value="goodcoffee">Good coffee and a slice of cake</option>
+                        <option value="dartcontest">Dart contest</option>
+                        <option value="meetwith">Casual conversation with people from the Industry</option>
+                    </select>
+                </fieldset>
+                <input type="submit">
             </fieldset>
-            <input type="text" id="events" name="events" selectBoxOptions="Packman;Denmark;Finland;Germany;Mexico"><br>
-            <input type="submit">
-        </fieldset>
+       
     </form>
+</div>
 </body>

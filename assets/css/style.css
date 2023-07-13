@@ -1,29 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-@media screen and (max-width: 600px) {
-    .hero-text {
-        text-align: center;
-        color: black;
-        background: beige;
-        opacity: 0.5;
-        font-size: 0.5em;
-        width: fit-content;
-        height: fit-content;
-    }
-
-    .hero-image {
-        background: url(../images/pexels-helena-lopes-933964.jpg);
-        height: 45vh;
-        width: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    nav ul li a {
-        font-size: 200%;
-    }
-}
 
 * {
     margin: 0vh;
@@ -421,7 +397,6 @@ select {
     font-family: 'Press Start 2P', cursive;
     height: 6vh;
     font-weight: bold;
-
 }
 
 #backgroundimage {
@@ -431,21 +406,79 @@ select {
     height: 100%;
     overflow: hidden;
     margin-top: 4vh;
-
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 1000px) {
+    .hero-text {
+        text-align: center;
+        color: black;
+        background: beige;
+        opacity: 0.5;
+        font-size: 0.5em;
+        width: fit-content;
+        height: fit-content;
+    }
 
-    /* Styles for iPhone SE and similar devices */
-    form {
-        font-size: 100%;
+    .hero-image {
+        background: url(../images/pexels-helena-lopes-933964.jpg);
+        height: 45vh;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .event-description {
+
+        padding-top: 2%;
+        font-size: 2vw;
+        color: white;
+        text-align: center;
+    }
+
+    .event-heading {
+        padding-top: 2%;
+        font-size: 4vw;
+        color: white;
+        text-align: center;
+    }
+
+
+    nav ul li a {
+        font-size: 2vw;
     }
 
     fieldset {
-        padding: 1vh 1vw;
+        min-width: 0;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    fieldset legend {
+        min-width: 0;
+        max-width: 100%;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    form {
+        width: 60vw;
+        margin-top: 10vh;
+    }
+
+    fieldset input {
+        width: 100%;
+
     }
 
     select {
-        height: 4vh;
+        text-align: left;
+        width: max-content;
+        display: inline-block;
+        font-size: auto;
+        height: 15vh;
+        text-overflow: hidden;
     }
 }

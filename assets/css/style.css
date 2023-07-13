@@ -1,5 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
+@media screen and (max-width: 600px) {
+    .hero-text {
+        text-align: center;
+        color: black;
+        background: beige;
+        opacity: 0.5;
+        font-size: 0.5em;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .hero-image {
+        background: url(../images/pexels-helena-lopes-933964.jpg);
+        height: 45vh;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    nav ul li a {
+        font-size: 200%;
+    }
+}
 
 * {
     margin: 0vh;
@@ -73,27 +97,6 @@ nav ul li:active {
     position: relative;
 }
 
-@media screen and (max-width: 600px) {
-    .hero-text {
-        text-align: center;
-        color: black;
-        background: beige;
-        opacity: 0.5;
-        font-size: 0.5em;
-        width: fit-content;
-        height: fit-content;
-    }
-
-    .hero-image {
-        background: url(../images/pexels-helena-lopes-933964.jpg);
-        height: 45vh;
-        width: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-}
 
 .hero-text {
     text-align: center;
@@ -111,12 +114,12 @@ nav ul li:active {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 70%;
     height: 100%;
     margin-top: 5vh;
     margin-bottom: 5vh;
     font-weight: bold;
-    font-size: larger;
+    font-size: 150%;
     background-color: beige;
 }
 
@@ -376,17 +379,14 @@ footer {
 
 form {
     text-align: center;
-    display: flex;
     background-color: black;
     border: 0;
     box-shadow: 0 0 15px 5px grey;
-    max-width: 100%;
-    max-height: 100%;
     margin: 25vh auto;
     width: fit-content;
     height: fit-content;
+    font-size: 100%;
     overflow: hidden;
-
 }
 
 form h1 {
@@ -398,7 +398,7 @@ fieldset {
     background-color: black;
     color: beige;
     margin: auto;
-
+    padding: 2vh 2vw;
 
 }
 
@@ -413,6 +413,7 @@ fieldset input {
     margin-left: 1vw;
     margin-right: 1vw;
     margin-bottom: 1.5vh;
+    font-size: 150%;
 }
 
 select {
@@ -428,5 +429,23 @@ select {
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
+    overflow: hidden;
+    margin-top: 4vh;
 
+}
+
+@media only screen and (max-width: 320px) {
+
+    /* Styles for iPhone SE and similar devices */
+    form {
+        font-size: 100%;
+    }
+
+    fieldset {
+        padding: 1vh 1vw;
+    }
+
+    select {
+        height: 4vh;
+    }
 }

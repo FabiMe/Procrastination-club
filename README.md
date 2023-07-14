@@ -44,7 +44,10 @@ the procrastination club is a place to network with like-minded individuals. It 
   - The event page provides a comprehensive explanation of what to expect in each event. 
 
 - Contact page
-
+![contact-page](https://github.com/FabiMe/Procrastination-club/assets/136444209/1f2fce17-4b65-4c53-a2aa-1c7c5d64b622)
+  - On the contact page there is a field to register for certain events.
+  - First name, last name and email address are mandatory
+  - Through a dropdown menu the different events can be selected and then submitted with a click on "send"
 ## Testing
 
 #### Validator Testing

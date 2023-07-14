@@ -64,7 +64,7 @@ nav ul li:active {
 /** Hero Image and text */
 
 .hero-image {
-    background: url(../images/pexels-helena-lopes-933964.jpg);
+    background: url(../images/hero-image.jpg);
     height: 70vh;
     width: 100%;
     background-position: center;
@@ -120,16 +120,16 @@ nav ul li:active {
     margin: auto;
 }
 
-.box {
-    text-align: center;
+section a h2 {
     background-color: black;
-    color: green;
-    border-radius: 5px;
+    text-align: center;
+    color: white;
+    opacity: 0.8;
 }
 
 /** specific style rules for individual event tiles */
 .event-1 {
-    background: url(../images/sei-bS46IAXWAO4-unsplash.jpg);
+    background: url(../images/packman.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -139,7 +139,7 @@ nav ul li:active {
 }
 
 .event-2 {
-    background: url(../images/pexels-nastyasensei-2267871.jpg);
+    background: url(../images/coffe-and-cake.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -148,7 +148,7 @@ nav ul li:active {
 }
 
 .event-3 {
-    background: url(../images/target-gd886252fd_1920.jpg);
+    background: url(../images/dart-contest.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -157,7 +157,7 @@ nav ul li:active {
 }
 
 .event-4 {
-    background: url(../images/space-g8d039d91b_640.jpg);
+    background: url(../images/meeting.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -215,7 +215,7 @@ nav ul li:active {
 }
 
 #packman {
-    background: url(../images/sei-bS46IAXWAO4-unsplash.jpg);
+    background: url(../images/packman.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -236,7 +236,7 @@ nav ul li:active {
 }
 
 #coffee {
-    background: url(../images/pexels-nastyasensei-2267871.jpg);
+    background: url(../images/coffe-and-cake.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -258,7 +258,7 @@ nav ul li:active {
 }
 
 #dart {
-    background: url(../images/target-gd886252fd_1920.jpg);
+    background: url(../images/dart-contest.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -280,7 +280,7 @@ nav ul li:active {
 }
 
 #meet {
-    background: url(../images/space-g8d039d91b_640.jpg);
+    background: url(../images/meeting.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -353,6 +353,7 @@ footer {
     opacity: 0.9;
 }
 
+/** form element for contact.html */
 form {
     text-align: center;
     background-color: black;
@@ -409,6 +410,13 @@ select {
 }
 
 @media only screen and (max-width: 1000px) {
+
+    /** Navigation bar media query */
+    nav ul li a {
+        font-size: 2vw;
+    }
+
+    /** Hero text and image media query */
     .hero-text {
         text-align: center;
         color: black;
@@ -420,7 +428,7 @@ select {
     }
 
     .hero-image {
-        background: url(../images/pexels-helena-lopes-933964.jpg);
+        background: url(../images/hero-image.jpg);
         height: 45vh;
         width: 100%;
         background-position: center;
@@ -428,7 +436,15 @@ select {
         background-size: cover;
     }
 
+    /** Why us section media query */
+    #explain {
+        width: 80%;
+        height: 100%;
+        font-size: 120%;
+        background-color: beige;
+    }
 
+    /** events.html media query */
     .event-description {
 
         padding-top: 2%;
@@ -444,11 +460,7 @@ select {
         text-align: center;
     }
 
-
-    nav ul li a {
-        font-size: 2vw;
-    }
-
+    /** contact.html media query */
     fieldset {
         min-width: 0;
         text-overflow: ellipsis;
@@ -464,7 +476,7 @@ select {
     }
 
     form {
-        width: 60vw;
+        width: 90vw;
         margin-top: 10vh;
     }
 
@@ -474,11 +486,15 @@ select {
     }
 
     select {
-        text-align: left;
-        width: max-content;
+        text-align: center;
+        margin: auto;
         display: inline-block;
-        font-size: auto;
         height: 15vh;
         text-overflow: hidden;
+        font-family: 'Lato', sans-serif;
+    }
+
+    option {
+        width: fit-content;
     }
 }

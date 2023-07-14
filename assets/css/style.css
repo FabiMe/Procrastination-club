@@ -38,7 +38,6 @@ nav ul li a {
     color: black;
     font-size: 1.5vw;
     font-weight: bold;
-    padding: auto auto;
 }
 
 nav ul li:hover {
@@ -490,7 +489,6 @@ select {
         margin: auto;
         display: inline-block;
         height: 15vh;
-        text-overflow: hidden;
         font-family: 'Lato', sans-serif;
     }
 

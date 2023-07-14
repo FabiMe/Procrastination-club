@@ -1,6 +1,7 @@
 # Procrastination-club
 
 the procrastination club is a place to network with like-minded individuals. It is primarily aimed at students. The goal is to get away from learning through social events but at the same time not to waste your time but to make new important contacts.
+![Responsive Webdesigne](responsive-webpage.jpg)
 
 ## Features
 

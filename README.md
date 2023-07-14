@@ -1,19 +1,11 @@
 # Procrastination-club
 
 the procrastination club is a place to network with like-minded individuals. It is primarily aimed at students. The goal is to get away from learning through social events but at the same time not to waste your time but to make new important contacts.
-![Responsive Webdesigne](responsive-webpage.jpg)
 
-## Features
+- The navigation bar, found on all three pages, includes links to the home page, the events page, and the contact page, and is identical on each page for easy navigation.
 
-- Navigation Bar
-
-  - The navigation bar, found on all three pages, includes links to the home page, the events page, and the contact page, and is identical on each page for easy navigation.
-  - This area allows the user to navigate from page to page on all devices.
-
-- Hero Image
-
-  - the hero image refers to networking and to not distract from the content of the image it is static without effects
-  - The hero image is the first object that attracts attention as soon as you open the page.
+- the hero image refers to networking and to not distract from the content of the image it is static without effects
+- The hero image is the first object that attracts attention as soon as you open the page.
 
 - Why Us?
 

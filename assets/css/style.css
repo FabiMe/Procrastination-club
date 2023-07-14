@@ -107,7 +107,7 @@ nav ul li:active {
     margin-top: 3vh;
 }
 
-/** style of the Event tiles */
+/** style of the Event tiles with inspiration from https: //developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout*/
 .event-tiles {
     display: grid;
     grid-column-gap: 1vw;

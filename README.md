@@ -60,11 +60,13 @@ the procrastination club is a place to network with like-minded individuals. It 
 #### Validator Testing
 
 - HTML
-  -
+  - No errors were found through the offical validator.w3.org
+  - ![image](https://github.com/FabiMe/Procrastination-club/assets/136444209/f9257c52-ee87-4315-ab36-d3d7dbf442bd)
 - CSS
   - No errors were found through the offical jigsaw validator
   - https://jigsaw.w3.org/css-validator/validator?lang=de&profile=css3svg&uri=https%3A%2F%2Ffabime.github.io%2FProcrastination-club&usermedium=all&vextwarning=&warning=1
 - Accessibility
+  - Checked with lighthouse
 
 #### Unfixed Bugs
 

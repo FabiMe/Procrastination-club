@@ -1,7 +1,8 @@
 # Procrastination-club
 
-![responsive-webpage](https://github.com/FabiMe/Procrastination-club/assets/136444209/94c1cbb7-913f-46b0-9c3e-5d84336d80f8)
 the procrastination club is a place to network with like-minded individuals. It is primarily aimed at students. The goal is to get away from learning through social events but at the same time not to waste your time but to make new important contacts.
+
+![responsive-webpage](https://github.com/FabiMe/Procrastination-club/assets/136444209/94c1cbb7-913f-46b0-9c3e-5d84336d80f8)
 
 - [Go to the live page](https://fabime.github.io/Procrastination-club/)
 
@@ -139,12 +140,18 @@ the procrastination club is a place to network with like-minded individuals. It 
   - https://jigsaw.w3.org/css-validator/validator?lang=de&profile=css3svg&uri=https%3A%2F%2Ffabime.github.io%2FProcrastination-club&usermedium=all&vextwarning=&warning=1
 - Accessibility
   - Checked with lighthouse
+- ![image](https://github.com/FabiMe/Procrastination-club/assets/136444209/b55f3342-a113-4bb8-8650-da468952b36a)
 
-#### Unfixed Bugs
+## Bugs
+
+- the media query did not work and had to be reworked in a time-consuming way.
+  Through much research the problem was solved
+
+## Unfixed Bugs
 
 No unfixed bugs
 
-## Deployment
+# Deployment
 
 - This website was deployed on GitHub pages. The following steps were used.
   - Open the GitHub repository and navigate to settings
@@ -154,9 +161,9 @@ No unfixed bugs
   - Deploy site
   - GitHub provides the URL to the completed website
 
-## Credits
+# Credits
 
-#### Content
+## Content
 
 - Navigationbar with inspiration from: https://www.youtube.com/watch?v=oLgtucwjVII&ab_channel=CodingNepal
 - tiles with grid layout with inspiration from: https://mastery.games/post/tile-layouts/ //
@@ -165,7 +172,7 @@ No unfixed bugs
 - Social media buttons in the footer: https://www.w3schools.com/howto/howto_css_social_media_buttons.asp
 - Import of icon library from: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
 
-#### Media
+## Media
 
 - Main image from pexels: https://www.pexels.com/de-de/foto/gruppe-von-freunden-rumhangen-933964/
 - Coffee and Cake image in events from pexels: https://www.pexels.com/de-de/foto/grune-keramik-tasse-in-der-nahe-von-keksen-2267871/

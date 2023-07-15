@@ -5,6 +5,60 @@ the procrastination club is a place to network with like-minded individuals. It 
 
 - [Go to the live page](https://fabime.github.io/Procrastination-club/)
 
+# UX
+
+## User Stories
+
+- Visitor Goals
+
+  - To escape from the daily routine of learning but also not to waste your time
+  - network with other like-minded people
+  - fun through social events in a good atmosphere
+
+- Site Owner Goals
+  - becoming the main point of contact for networking among students
+  - simple navigation through the website
+
+## Design
+
+- Colour Scheme
+
+  - the colors were limited to beige, black and white to create an eye-friendly contrast that does not distract from the content of the page
+
+- Typography
+  - Two fonts have been used acrosss the site.
+  - Press Start 2P for headings and the selection window in the contact page
+  - Lato for every other text
+
+# UX Design
+
+## Stategy Plane
+
+- The Website is made as B2C platform.
+- The main need of users is to have a break from learning and to find a place to network.
+
+## Scope Plane
+
+- To meet the needs of users, the website must provide a way to find and also book a break
+
+## Structure Plane
+
+- Users can select events with an explanation
+
+## Skeleton Plane
+
+- Users have a navigation bar to navigate through the website
+- Users have three different pages so as not to get distracted
+- Users have a home page with the most important information
+- Users have an event page with explanations
+- Users have a contact page to book events
+
+## Surface Plane
+
+- The website has two font families to clearly separate the content.
+- Colors are limited to beige, black and white for good contrast.
+- Selected images represent the event
+
 # Features
 
 ## Navigation
@@ -55,9 +109,27 @@ the procrastination club is a place to network with like-minded individuals. It 
 - It is mandatory to fill in all the given fields in order to book an event.
 - this way everyone can be sure that all the necessary information will be transmitted and a smooth process will be guaranteed.
 
-## Testing
+# Testing
 
-#### Validator Testing
+## Browser Testing
+
+| Browser | Layout  | Functionality |
+| ------- | ------- | ------------- |
+| Chrome  | Checked | Checked       |
+| Firefox | Checked | Checked       |
+| Edge    | Checked | Checked       |
+| Safari  | Checked | Checked       |
+
+## Manual Testing
+
+| Feature              | Expect                                                                                                                                                                                  | Action           | Result                                                                          |
+| -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | ------------------------------------------------------------------------------- |
+| navigation           | If you click on Home, Events or Contact, the corresponding page will open                                                                                                               | Click on button  | corresponding page opens                                                        |
+| Events on index page | If you hover the mouse cursor over the event, the tile will be enlarged.                                                                                                                | Hover over event | Enlargement of the event tiles                                                  |
+| Footer               | clicking on a social media button opens the corresponding page in a new tab                                                                                                             | Click on button  | The Corresponding page opens in a new tab                                       |
+| Submit Form          | If all fields are filled in according to the instructions and the desired event has been selected, a new page with the transferred information will be opened after clicking on submit. | Fill in the Form | The Corresponding page opens in a new tab and shows all transferred information |
+
+## Validator Testing
 
 - HTML
   - No errors were found through the offical validator.w3.org
@@ -101,5 +173,3 @@ No unfixed bugs
 - Dart image in events from pixabay: https://pixabay.com/photos/target-goal-aiming-dartboard-aim-1551492/
 - Casual conversation image in events from pixabay: https://pixabay.com/photos/space-interior-design-architecture-4660847/
 - Clouds in the contact section from pexels: https://www.pexels.com/de-de/foto/wolken-2627945/
-
-#### Media
